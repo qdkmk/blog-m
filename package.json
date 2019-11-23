@@ -1,0 +1,51 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My incredible Nuxt.js project",
+  "author": "qdkmk",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --port 3333",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.8",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/markdownit": "^1.2.7",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "contentful": "^7.10.0",
+    "contentful-management": "^5.11.3",
+    "markdown-it-anchor": "^5.2.5",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-table-of-contents": "^0.4.4",
+    "markdown-it-toc": "^1.1.0",
+    "node-sass": "^4.13.0",
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-mq": "^2.0.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "prismjs": "^1.17.1",
+    "sass-loader": "^8.0.0",
+    "vue-parallax-js": "^0.2.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4",
+    "vue-jest": "^4.0.0-0"
+  }
+}
